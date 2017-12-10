@@ -9,7 +9,5 @@ import org.springframework.context.annotation.PropertySource;
  */
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.algosec.point"})
-@PropertySource({
-        "classpath:app.properties"})
 public class XPointApplicationConfig {
 }
