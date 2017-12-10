@@ -7,7 +7,6 @@ import org.springframework.util.Assert;
  * Created by Alexander on 09.12.2017.
  */
 public final class Pair<V extends Number> {
-
     private V startPoint;
     private V endPoint;
 

@@ -65,8 +65,9 @@ public class XPointController {
     }
 
     /**
-     * Validate pairs for null values
+     * Validate pairs for null values.
      * JSON might contain incorrect field names - null values will appear as result
+     * Jackson might be configured to sent "Bad request" response, when unrecognized JSON fields where found.
      *
      * @param pairs
      * @return true if Pairs are valid, false otherwise
